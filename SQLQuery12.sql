@@ -1,0 +1,1 @@
+﻿select ROW_NUMBER() over (order by Datum) , * from Pokladna order by Datum
